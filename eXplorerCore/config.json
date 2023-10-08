@@ -1,0 +1,8 @@
+{
+  "GridWidth": 5,
+  "GridHeight": 5,
+  "PlayerStartPosition": {
+    "X": 1,
+    "Y": 1
+  }
+}
