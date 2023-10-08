@@ -31,7 +31,6 @@ namespace eXplorer
 
             string status = "New Grid, Press H for Help";
             Graphics.Update(mainGrid, status);
-            //Graphics.PrintPlayerPos(player); // 1: Commented except for in movement mode
 
             bool loop = true;
             Dictionary<ConsoleKey, Func<string>> validCommands = new Dictionary<ConsoleKey, Func<string>>
@@ -62,7 +61,6 @@ namespace eXplorer
                 }
 
                 Graphics.Update(mainGrid, status);
-                //Graphics.PrintPlayerPos(player); // 1: Commented except for in movement mode
             }
         }
     }
