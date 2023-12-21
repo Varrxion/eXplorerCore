@@ -12,8 +12,8 @@
             set { previous = value; }
         }
 
-    // Default to 2x2 grid
-    public Grid() : this(2, 2)
+        // Default to 2x2 grid
+        public Grid() : this(2, 2)
         {
         }
 

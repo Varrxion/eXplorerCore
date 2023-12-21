@@ -21,7 +21,7 @@ namespace eXplorer
             }
             else // Fallback if no config found.
             {
-                mainGrid = new Grid.Grid(3, 3);
+                mainGrid = new Grid.Grid(5, 5);
                 player = new Player.Player(0, 0);
             }
 
